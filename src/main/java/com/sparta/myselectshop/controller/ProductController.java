@@ -33,5 +33,4 @@ public class ProductController {
     public List<ProductResponseDto> getProducts() {
         return productService.getProducts();
     }
-
 }
