@@ -8,4 +8,4 @@
 | 회원정보| | |
 |jwt.io에서 확인|<img width="1211" alt="image" src="https://github.com/dami0806/mySelectShop/assets/85047035/a962483a-f066-4763-8434-0336c7876c70">
 |admin은 전체 보기|||
-|paging|||
+|paging|<img width="601" alt="image" src="https://github.com/dami0806/mySelectShop/assets/85047035/d2eeb954-8a46-4c5c-bdc2-82be134be6ab">||
