@@ -27,16 +27,27 @@ public class UserController {
 
     private final UserService userService;
 
+    // 로그인 페이지로 이동
     @GetMapping("/user/login-page")
     public String loginPage() {
         return "login";
     }
 
+    // 회원가입페이지로 이동
     @GetMapping("/user/signup")
     public String signupPage() {
         return "signup";
     }
 
+    // 회원가입
+
+    /**
+     * 회원가입하기
+     * 형식: @RequestBody 가 없기 때문에 폼데이터 형식으로(application/x-www-form-urlencoded)
+     * @param requestDto
+     * @param bindingResult
+     * @return 로그인 페이지로 이동
+     */
     @PostMapping("/user/signup")
     public String signup(@Valid SignupRequestDto requestDto, BindingResult bindingResult) {
         // Validation 예외처리
